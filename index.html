@@ -2,26 +2,83 @@
 <html>
 	<head>
 		<title>The life of Billj</title>
+    <style>
+			body{
+				background-color: #34495E;
+			}
+			.nav{
+				border:none;
+				border-width: 1px 0;
+				list-style:none;
+				margin: 0;
+				padding: 0;
+				text-align: center;
+			}
+			.nav button{display: inline;}
+			.nav button {
+				display: inline-block;
+				padding: 10px;
+			}
+
+			.button{
+				padding: 15px 25px;
+				font-size:24px;
+				text-align:center;
+				cursor: pointer;
+				outline: none;
+				color: #fff;
+				background-color: #0B5345;
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 9px #999;
+				opacity: 0.9;
+				float: none;
+				display: inline-block;
+				display: inline;
+			}
+
+			.button:hover{
+				background-color: #138D75;
+			}
+			.a{
+				color: white;
+				text-decoration: none;
+				text-align: center;
+			}
+			.contactInfo{
+				color: white;
+				text-align: center;
+
+			}
+		 .footer,
+		 .push {
+			 height: -50px;
+		 }
+
+
+		</style>
 	</head>
 	<body>
-		<nav>
+		<nav class="nav">
     		<ul>
-			<button><li><a href="/">Home</a></li></button>
-	        	<button><li><a href="/about">About</a></li></button>
-        		<button><li><a href="/cv">CV</a></li></button>
-        		<button><li><a href="/blog">Blog</a></li></button>
+			<button class="button"><a class="a" href="/">Home</a></button>
+	        	<button class="button"><a class="a" href="https://youtu.be/T2br1fAKOGU">About</a></button>
+        		<button class="button"><a class="a" href="/cv">CV</a></button>
+        		<button class="button"><a class="a" href="/blog">Blog</a></button>
     		</ul>
 		</nav>
-		<div class="container">
+		<div class="a">
     		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+        		<h1>Hi there, I'm Mr J!</h1>
+				<p>I'm best known as that guy who came equal runner up in the middle school cricket club
+					<em></em>
+					<a class="contactInfo" href="/about">Read more about my life...</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
-		<footer>
+		<footer class="push">
     		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+        		<a class="contactInfo" href="mailto:bill.jordan@outlook.com.au">email</a>
+        		<a class="contactInfo" href="https://github.com/billjtech">github.com/billjtech</a>
 			</ul>
 		</footer>
 	</body>
